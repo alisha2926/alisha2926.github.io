@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Alisha Singh — GenAI Engineer and AI/ML professional portfolio.">
+  <title>Alisha Singh | GenAI Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="bg-grid"></div>
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+  <div class="cursor-glow"></div>
+  <header class="nav">
+    <a class="brand" href="#home">AS<span>.</span></a>
+    <nav id="navLinks">
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="nav-cta" href="Alisha_Singh_Resume.pdf" download>Download CV ↗</a>
+    <button class="menu" id="menuBtn" aria-label="Open menu">☰</button>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow reveal">GENAI ENGINEER · AI/ML</p>
+        <h1 class="reveal">Building <span>intelligent</span><br>systems that <span id="typing">work.</span></h1>
+        <p class="lead reveal">AI/ML professional focused on <strong>Generative AI, RAG, AI Agents, LLM applications</strong> and production-ready AI solutions.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#projects">View Projects <span>↓</span></a>
+          <a class="btn ghost" href="https://github.com/alisha2926" target="_blank" rel="noreferrer">GitHub ↗</a>
+          <a class="btn ghost" href="https://www.linkedin.com/in/alisha-singh-6b70621b8/" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+        </div>
+        <div class="hero-meta">
+          <span><i></i> Available for opportunities</span>
+          <span>1+ year hands-on AI/ML</span>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="orb"></div>
+        <div class="photo-frame reveal-scale">
+          <img src="assets/profile.jpg" alt="Alisha Singh">
+        </div>
+        <div class="float-card card-top">
+          <strong>AI / GenAI</strong>
+          <span>RAG · Agents · LLMs</span>
+        </div>
+        <div class="float-card card-bottom">
+          <strong>Production</strong>
+          <span>FastAPI · Docker · MCP</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section intro reveal-section" id="about">
+      <div class="section-label">01 — ABOUT</div>
+      <div class="intro-grid">
+        <h2>Turning complex AI ideas into <em>useful products.</em></h2>
+        <div>
+          <p>I'm Alisha Singh, a GenAI Engineer with hands-on experience building AI applications, RAG pipelines and agentic workflows. I work across the stack—from document ingestion and retrieval to LLM orchestration, APIs and deployment.</p>
+          <p>My work combines Python, modern LLM tooling, vector databases, NLP and data engineering to solve real-world problems with reliable, scalable systems.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section reveal-section" id="experience">
+      <div class="section-label">02 — EXPERIENCE</div>
+      <div class="timeline">
+        <article class="timeline-item">
+          <div class="date">APR 2026 — PRESENT</div>
+          <div>
+            <h3>GenAI Engineer (Trainee)</h3>
+            <p class="company">Unicloud · Noida, UP</p>
+            <ul>
+              <li>Developed Generative AI and LLM applications using Python, OpenAI API, Hugging Face, Ollama and vLLM.</li>
+              <li>Built RAG pipelines with embeddings, FAISS, vector databases, LangChain and LlamaIndex.</li>
+              <li>Developed AI Agents and agentic workflows using Tool/Function Calling, ReAct, MCP, Multi-Agent Systems and workflow orchestration.</li>
+              <li>Implemented LLM inference and routing with vLLM and Semantic Router; worked with NLP, Transformers, prompt engineering and LLM fine-tuning.</li>
+              <li>Deployed AI solutions using FastAPI, REST APIs, Docker, Linux and Git.</li>
+            </ul>
+          </div>
+        </article>
+        <article class="timeline-item">
+          <div class="date">AUG 2025 — FEB 2026</div>
+          <div>
+            <h3>Data Science & AI Intern</h3>
+            <p class="company">FORTIVE · Bengaluru, Karnataka</p>
+            <ul>
+              <li>Cleaned and transformed business datasets using SQL and Excel.</li>
+              <li>Built ETL workflows using Supermetrics, Salesforce and Google BigQuery.</li>
+              <li>Automated REST API data extraction with Python and developed Power BI dashboards for business reporting.</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section projects reveal-section" id="projects">
+      <div class="section-label">03 — SELECTED PROJECTS</div>
+      <div class="project-grid reveal-stagger">
+        <article class="project featured">
+          <div class="project-num">01</div>
+          <div class="project-content">
+            <p class="tag">RAG · DOCUMENT AI</p>
+            <h3>AI-Powered RAG Document Q&A</h3>
+            <p>End-to-end RAG system for PDF question answering with asynchronous ingestion, OCR, embeddings, vector search, hybrid retrieval and reranking.</p>
+            <div class="stack"><span>FastAPI</span><span>LangChain</span><span>Milvus</span><span>Celery</span><span>Redis</span><span>LLM</span></div>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="project-num">02</div>
+          <div class="project-content">
+            <p class="tag">SEARCH · NLP</p>
+            <h3>AI-Powered Book Search Engine</h3>
+            <p>Hybrid semantic + keyword search engine combining FAISS and Apache Solr with LLM query expansion, multilingual translation, history-aware search and reranking.</p>
+            <div class="stack"><span>FAISS</span><span>Solr</span><span>Flask</span><span>Streamlit</span><span>LLM</span></div>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="project-num">03</div>
+          <div class="project-content">
+            <p class="tag">AI AGENT · OCR</p>
+            <h3>Invoice Processing Agent</h3>
+            <p>Human-in-the-loop invoice processing system with multi-format OCR, 40+ field extraction, bounding-box grounding, validation, duplicate detection and PostgreSQL via MCP.</p>
+            <div class="stack"><span>AI Agents</span><span>OCR</span><span>MCP</span><span>PostgreSQL</span><span>LLM</span></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section skills reveal-section" id="skills">
+      <div class="section-label">04 — TOOLKIT</div>
+      <div class="skills-grid">
+        <div class="skill-block">
+          <h3>GenAI / AI Agents</h3>
+          <p>RAG · AI Agents · LLMs · MCP · Prompt Engineering · Tool Calling · ReAct · Multi-Agent Systems</p>
+        </div>
+        <div class="skill-block">
+          <h3>Frameworks & ML</h3>
+          <p>LangChain · LlamaIndex · Hugging Face · Scikit-learn · Pandas · NumPy · Matplotlib</p>
+        </div>
+        <div class="skill-block">
+          <h3>Data & Databases</h3>
+          <p>PostgreSQL · MySQL · Google BigQuery · FAISS · Milvus · Apache Solr</p>
+        </div>
+        <div class="skill-block">
+          <h3>Deployment & APIs</h3>
+          <p>FastAPI · REST APIs · Docker · Linux · Git · vLLM · Ollama · Semantic Router</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section education reveal-section">
+      <div class="section-label">05 — EDUCATION</div>
+      <div class="edu-grid">
+        <div><span>2023 — 2025</span><h3>Master of Computer Applications (AI-ML)</h3><p>Chandigarh University · CGPA 7.49</p></div>
+        <div><span>2020 — 2023</span><h3>Bachelor of Computer Applications</h3><p>Manav Rachna University · CGPA 8.00</p></div>
+      </div>
+    </section>
+
+    <section class="section contact reveal-section" id="contact">
+      <div class="contact-box">
+        <p class="eyebrow">LET'S CONNECT</p>
+        <h2>Have an AI problem<br>worth <em>solving?</em></h2>
+        <p>I'm open to opportunities in Generative AI, Machine Learning and AI Engineering.</p>
+        <div class="contact-actions">
+          <a class="btn primary" href="mailto:asingh040801@gmail.com">asingh040801@gmail.com ↗</a>
+          <a class="btn ghost" href="tel:+919599784659">+91 9599784659</a>
+        </div>
+        <div class="socials">
+          <a href="https://github.com/alisha2926" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="https://www.linkedin.com/in/alisha-singh-6b70621b8/" target="_blank" rel="noreferrer">LinkedIn</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>© 2026 Alisha Singh</span>
+    <span>Built with purpose · AI / ML / GenAI</span>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
